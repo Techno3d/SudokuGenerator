@@ -40,3 +40,6 @@ Also not the fasted algorithim in the world, but this code could be optimized an
 
 On my computer, for 1,000,001 sudoku boards, it took about 36.854s, which is about 36.85396 micro seconds per board.
 Suprisingly not that slow.
+
+Edit: Most of the time spent on by my program is spent on printing 1 single sudoku board. Removing the print speeds my program to 10.647s or about 10.64699 microseconds per board.
+This was a lot faster than I initially thought.
